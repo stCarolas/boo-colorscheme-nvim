@@ -465,7 +465,7 @@ local treesitter = function(c)
 		{ string, c.cloud10:lighten_to(0.8):desaturate_to(0.5) },
 		{ boolean, c.cloud2:light(0.1) },
 		{ functions, c.cloud14:saturate(0.2) },
-		{ methods, c.cloud14:light(0.1), c.none, s.italic },
+		{ methods, c.cloud14:light(0.1), c.none, s.none },
 		{ fields, c.cloud10:lighten_to(0.5):desaturate_to(0.1) },
 		{ number, c.cloud6:lighten_to(0.8):desaturate_to(0.1) },
 		{ parameters, c.cloud6:dark() },
