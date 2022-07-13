@@ -471,7 +471,7 @@ local treesitter = function(c)
 		{ parameters, c.cloud6:dark() },
 		{ operators, c.cloud3:lighten_to(0.4):desaturate(0.1) },
 		{ forwords, c.cloud8:saturate(0.1), c.none },
-		{ keyword, c.cloud4:lighten_to(0.4), c.none, s.italic },
+		{ keyword, c.cloud4:lighten_to(0.4), c.none, s.none },
 		{ constructors, c.cloud10 },
 		{ types, c.cloud10 },
 		{ includes, c.cloud4 },
